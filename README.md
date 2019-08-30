@@ -6,8 +6,8 @@ this page has my Datascience Projects / POCs basically from training courses and
 
 Projects:
 
-Udacity-Nanodegree-Deep-Learning-Project
+Udacity-Nanodegree-Deep-Learning-Project <br>
 Deep learning project done at Data Science Udacity Nanodegree 
 
-Udacity-Nanodegree-Supervised-Learning-Project
+Udacity-Nanodegree-Supervised-Learning-Project<br>
 Supervised Learning project done at Data Science Udacity Nanodegree 
