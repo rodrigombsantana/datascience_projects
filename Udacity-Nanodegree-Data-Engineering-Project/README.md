@@ -20,3 +20,21 @@ The project includes a web app where an emergency worker can input a new message
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+###Files description
+- app
+| - template
+| |- master.html  # main page of web app
+| |- go.html  # classification result page of web app
+|- run.py  # Flask file that runs app
+
+- data
+|- disaster_categories.csv  # data to process 
+|- disaster_messages.csv  # data to process
+|- process_data.py # ETL Pipeline
+|- InsertDatabaseName.db   # database to save clean data to
+
+- models
+|- train_classifier.py #ML Pipeline
+|- classifier.pkl  # saved model 
