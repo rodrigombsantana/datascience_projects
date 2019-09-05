@@ -30,7 +30,7 @@ def clean_data(df):
 
 def save_data(df, database_filename):
     engine = create_engine('sqlite:///' + str(database_filename))
-    df.to_sql(name='MSG_A_CAT', con=engine, index=False)  
+    df.to_sql(name='MSG_A_CAT', if_exists='replace', con=engine, index=False)  
 
 
 def main():

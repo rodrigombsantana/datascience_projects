@@ -47,7 +47,7 @@ def index():
 
     # Top 3 categories
     top3_count = df.iloc[:,4:].sum().sort_values(ascending=False)[1:4]
-    top3_names = list(top_category_count.index)
+    top3_names = list(top3_count.index)
 
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
